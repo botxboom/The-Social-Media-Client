@@ -13,9 +13,9 @@ function Home() {
     const { user } = useContext(AuthContext)
 
     return (
-        <Grid columns={3}>
+        <Grid columns={1}>
             <Grid.Row className="page-title">
-                <h1>Recent Posts</h1>
+                <h1>Recent Stories</h1>
             </Grid.Row>
             <Grid.Row>
                 {user && (
